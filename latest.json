@@ -12,12 +12,12 @@
       "notes": "Self-installing OTA: тап «Обновить» — скачивание + SHA-256 verify, тап «Перезагрузить» — silent install (swap-via-cmd) + рестарт. Windows Toast notifier даже когда RaPlay закрыт."
     },
     "android": {
-      "versionCode": 23,
-      "versionName": "0.14.0",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.14.0",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.14.0/raplay-0.14.0.apk",
-      "sha256": "9190995dff5d015f6d02a83287e76c7203a15a9339cb436673c25a9cc890d5c0",
-      "notes": "Нативный вход через Google (системный выбор аккаунта, без браузера) + беспарольный вход по коду на email. Обновления и манифест переехали на GitHub."
+      "versionCode": 25,
+      "versionName": "0.15.0",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.15.0",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.15.0/raplay-0.15.0.apk",
+      "sha256": "6963eb6cbe6ab977e632301784a35e9d767a020fde4c890efe9604478557cd0a",
+      "notes": "Синхронизация сохранёнок между устройствами (треки/радио + аудио-настройки/EQ): сохранил на одном — появилось на другом. Подтягивается при возврате в приложение."
     },
     "miniapp": {
       "version": "0.4.1",
