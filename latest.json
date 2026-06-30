@@ -1,0 +1,28 @@
+{
+  "version": "0.15.0",
+  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.15.0",
+  "notes": "Self-installing OTA: тап «Обновить» — скачивание + verify, тап «Перезагрузить» — установка + рестарт. Windows Toast notifier даже когда RaPlay закрыт.",
+  "platforms": {
+    "desktop": {
+      "version": "0.15.0",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.15.0",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.15.0/RaPlay.exe",
+      "sha256": "16297b2d3d3d28fe2b3c1907af840246a5fe27dbde1dfc878f72af488daf4c87",
+      "artifact_name": "RaPlay.exe",
+      "notes": "Self-installing OTA: тап «Обновить» — скачивание + SHA-256 verify, тап «Перезагрузить» — silent install (swap-via-cmd) + рестарт. Windows Toast notifier даже когда RaPlay закрыт."
+    },
+    "android": {
+      "versionCode": 23,
+      "versionName": "0.14.0",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.14.0",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.14.0/raplay-0.14.0.apk",
+      "sha256": "9190995dff5d015f6d02a83287e76c7203a15a9339cb436673c25a9cc890d5c0",
+      "notes": "Нативный вход через Google (системный выбор аккаунта, без браузера) + беспарольный вход по коду на email. Обновления и манифест переехали на GitHub."
+    },
+    "miniapp": {
+      "version": "0.4.1",
+      "notes": "Тёмная тема: в Профиле тумблер «Светлая / Тёмная / Системная». Тёмная — чёрный фон + оранжевый акцент в стиле лендинга. «Системная» следует за темой Telegram. Плюс пофиксили кнопку «Открыть в Telegram» на лендинге — теперь открывает мини-аппу в новой TG-вкладке.",
+      "sha256": null
+    }
+  }
+}
