@@ -1,28 +1,28 @@
 {
-  "version": "0.18.0",
-  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.0",
-  "notes": "### Added\n- Onedir-aware OTA (Path C) — zip-based portable update: download +\n  verify SHA-256 + robocopy /MIR + relaunch. Совместим с PyInstaller onedir\n  (0.16.13+). Onefile→onedir миграция автоматическая (destination-side /MIR\n  чистит одинокий RaPlay.exe и подменяет свежим...",
+  "version": "0.18.1",
+  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.1",
+  "notes": "### Fixed\n- Перевыпуск onedir-сборки: опубликованный 0.18.0-zip был собран ДО\n  доводки «МОЙ КАНАЛ» — в бинаре отсутствовали реальная страница канала,\n  фото/видео в композере и удаление постов. 0.18.1 = тот же код 0.18.0 +\n  весь МОЙ КАНАЛ-постинг (см. записи ниже) + фикс JSO...",
   "platforms": {
     "desktop": {
-      "version": "0.18.0",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.0",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.18.0/RaPlay-0.18.0-windows-x64.zip",
+      "version": "0.18.1",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.1",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.18.1/RaPlay-0.18.1-windows-x64.zip",
       "sha256": "86aaf096d06909b77050bfd6c23c7b7435e76d5c064faf3ea707fced349029e9",
-      "artifact_name": "RaPlay-0.18.0-windows-x64.zip",
+      "artifact_name": "RaPlay-0.18.1-windows-x64.zip",
       "artifact_kind": "zip-onedir",
-      "notes": "### Added\n- Onedir-aware OTA (Path C) — zip-based portable update: download +\n  verify SHA-256 + robocopy /MIR + relaunch. Совместим с PyInstaller onedir\n  (0.16.13+). Onefile→onedir миграция автоматическая (destination-side /MIR\n  чистит одинокий RaPlay.exe и подменяет свежим..."
+      "notes": "### Fixed\n- Перевыпуск onedir-сборки: опубликованный 0.18.0-zip был собран ДО\n  доводки «МОЙ КАНАЛ» — в бинаре отсутствовали реальная страница канала,\n  фото/видео в композере и удаление постов. 0.18.1 = тот же код 0.18.0 +\n  весь МОЙ КАНАЛ-постинг (см. записи ниже) + фикс JSO..."
     },
     "android": {
-      "versionCode": 27,
-      "versionName": "0.16.0",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.16.0",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.16.0/raplay-0.16.0.apk",
-      "sha256": "e55d3a45ef2adc7e8703d496a82971151d17f525b378ec0ac7be21e91f5fa63c",
-      "notes": "### Added\n- Onedir-aware OTA (Path C) — zip-based portable update: download +\n  verify SHA-256 + robocopy /MIR + relaunch. Совместим с PyInstaller onedir\n  (0.16.13+). Onefile→onedir миграция автоматическая (destination-side /MIR\n  чистит одинокий RaPlay.exe и подменяет свежим..."
+      "versionCode": 28,
+      "versionName": "0.16.1",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.16.1",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.16.1/raplay-0.16.1.apk",
+      "sha256": "a117a3acba05f6e7ecf3c7894110cd3a65d40258a3ba3cb046d3603f5fa12baa",
+      "notes": "### Fixed\n- Перевыпуск onedir-сборки: опубликованный 0.18.0-zip был собран ДО\n  доводки «МОЙ КАНАЛ» — в бинаре отсутствовали реальная страница канала,\n  фото/видео в композере и удаление постов. 0.18.1 = тот же код 0.18.0 +\n  весь МОЙ КАНАЛ-постинг (см. записи ниже) + фикс JSO..."
     },
     "miniapp": {
       "version": "0.6.0",
-      "notes": "### Added\n- Onedir-aware OTA (Path C) — zip-based portable update: download +\n  verify SHA-256 + robocopy /MIR + relaunch. Совместим с PyInstaller onedir\n  (0.16.13+). Onefile→onedir миграция автоматическая (destination-side /MIR\n  чистит одинокий RaPlay.exe и подменяет свежим...",
+      "notes": "### Fixed\n- Перевыпуск onedir-сборки: опубликованный 0.18.0-zip был собран ДО\n  доводки «МОЙ КАНАЛ» — в бинаре отсутствовали реальная страница канала,\n  фото/видео в композере и удаление постов. 0.18.1 = тот же код 0.18.0 +\n  весь МОЙ КАНАЛ-постинг (см. записи ниже) + фикс JSO...",
       "sha256": null
     }
   }
