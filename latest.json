@@ -1,28 +1,28 @@
 {
-  "version": "0.18.1",
-  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.1",
-  "notes": "### Fixed\n- Перевыпуск onedir-сборки: опубликованный 0.18.0-zip был собран ДО\n  доводки «МОЙ КАНАЛ» — в бинаре отсутствовали реальная страница канала,\n  фото/видео в композере и удаление постов. 0.18.1 = тот же код 0.18.0 +\n  весь МОЙ КАНАЛ-постинг (см. записи ниже) + фикс JSO...",
+  "version": "0.18.2",
+  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.2",
+  "notes": "### Changed\n- Код не менялся относительно 0.18.1 — релиз выпускается для сквозного\n  теста обновления по воздуху (0.18.1 → 0.18.2 через onedir-zip Path C).\n  Все ЧТИВО-фиксы этого дня — backend-сторона (см. [backend 0.4.0]) и\n  доезжают до desktop без обновления клиента.",
   "platforms": {
     "desktop": {
-      "version": "0.18.1",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.1",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.18.1/RaPlay-0.18.1-windows-x64.zip",
-      "sha256": "ccb4996a86ffd74d862dfc96458b8ca3e3fde39e4259b99cf5a2b8c64769fc23",
-      "artifact_name": "RaPlay-0.18.1-windows-x64.zip",
+      "version": "0.18.2",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.2",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.18.2/RaPlay-0.18.2-windows-x64.zip",
+      "sha256": "6b9d6599de0e3d8807b874617ba0e45e7902dd4ed05e5db94974f073f404399f",
+      "artifact_name": "RaPlay-0.18.2-windows-x64.zip",
       "artifact_kind": "zip-onedir",
-      "notes": "### Fixed\n- Перевыпуск onedir-сборки: опубликованный 0.18.0-zip был собран ДО\n  доводки «МОЙ КАНАЛ» — в бинаре отсутствовали реальная страница канала,\n  фото/видео в композере и удаление постов. 0.18.1 = тот же код 0.18.0 +\n  весь МОЙ КАНАЛ-постинг (см. записи ниже) + фикс JSO..."
+      "notes": "### Changed\n- Код не менялся относительно 0.18.1 — релиз выпускается для сквозного\n  теста обновления по воздуху (0.18.1 → 0.18.2 через onedir-zip Path C).\n  Все ЧТИВО-фиксы этого дня — backend-сторона (см. [backend 0.4.0]) и\n  доезжают до desktop без обновления клиента."
     },
     "android": {
-      "versionCode": 28,
-      "versionName": "0.16.1",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.16.1",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.16.1/raplay-0.16.1.apk",
-      "sha256": "a117a3acba05f6e7ecf3c7894110cd3a65d40258a3ba3cb046d3603f5fa12baa",
-      "notes": "### Fixed\n- Перевыпуск onedir-сборки: опубликованный 0.18.0-zip был собран ДО\n  доводки «МОЙ КАНАЛ» — в бинаре отсутствовали реальная страница канала,\n  фото/видео в композере и удаление постов. 0.18.1 = тот же код 0.18.0 +\n  весь МОЙ КАНАЛ-постинг (см. записи ниже) + фикс JSO..."
+      "versionCode": 29,
+      "versionName": "0.16.2",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.16.2",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.16.2/raplay-0.16.2.apk",
+      "sha256": "7069c3cc7a976451928f67bd3a26fbcf0079fd8f80d38e6cf24518d8b1c144a2",
+      "notes": "### Changed\n- Код не менялся относительно 0.18.1 — релиз выпускается для сквозного\n  теста обновления по воздуху (0.18.1 → 0.18.2 через onedir-zip Path C).\n  Все ЧТИВО-фиксы этого дня — backend-сторона (см. [backend 0.4.0]) и\n  доезжают до desktop без обновления клиента."
     },
     "miniapp": {
       "version": "0.6.0",
-      "notes": "### Fixed\n- Перевыпуск onedir-сборки: опубликованный 0.18.0-zip был собран ДО\n  доводки «МОЙ КАНАЛ» — в бинаре отсутствовали реальная страница канала,\n  фото/видео в композере и удаление постов. 0.18.1 = тот же код 0.18.0 +\n  весь МОЙ КАНАЛ-постинг (см. записи ниже) + фикс JSO...",
+      "notes": "### Changed\n- Код не менялся относительно 0.18.1 — релиз выпускается для сквозного\n  теста обновления по воздуху (0.18.1 → 0.18.2 через onedir-zip Path C).\n  Все ЧТИВО-фиксы этого дня — backend-сторона (см. [backend 0.4.0]) и\n  доезжают до desktop без обновления клиента.",
       "sha256": null
     }
   }
