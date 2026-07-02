@@ -1,16 +1,16 @@
 {
-  "version": "0.18.2",
-  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.2",
-  "notes": "### Changed\n- Код не менялся относительно 0.18.1 — релиз выпускается для сквозного\n  теста обновления по воздуху (0.18.1 → 0.18.2 через onedir-zip Path C).\n  Все ЧТИВО-фиксы этого дня — backend-сторона (см. [backend 0.4.0]) и\n  доезжают до desktop без обновления клиента.",
+  "version": "0.18.3",
+  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.3",
+  "notes": "### Fixed\n- Баннер обновления никогда не появлялся в РФ: манифест читался с\n  raplay.ru, который блокируется (TLS-обрыв). Теперь цепочка: primary\n  raw.githubusercontent.com/ra-artnft/raplay-releases/main/latest.json\n  (как у Android), fallback raplay.ru; битый/недоступный ист...",
   "platforms": {
     "desktop": {
-      "version": "0.18.2",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.2",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.18.2/RaPlay-0.18.2-windows-x64.zip",
-      "sha256": "6b9d6599de0e3d8807b874617ba0e45e7902dd4ed05e5db94974f073f404399f",
-      "artifact_name": "RaPlay-0.18.2-windows-x64.zip",
+      "version": "0.18.3",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.3",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.18.3/RaPlay-0.18.3-windows-x64.zip",
+      "sha256": "83361ff9b535b92afcb21e83cc0998d504920c1bb59f199195e85c44f823d39b",
+      "artifact_name": "RaPlay-0.18.3-windows-x64.zip",
       "artifact_kind": "zip-onedir",
-      "notes": "### Changed\n- Код не менялся относительно 0.18.1 — релиз выпускается для сквозного\n  теста обновления по воздуху (0.18.1 → 0.18.2 через onedir-zip Path C).\n  Все ЧТИВО-фиксы этого дня — backend-сторона (см. [backend 0.4.0]) и\n  доезжают до desktop без обновления клиента."
+      "notes": "### Fixed\n- Баннер обновления никогда не появлялся в РФ: манифест читался с\n  raplay.ru, который блокируется (TLS-обрыв). Теперь цепочка: primary\n  raw.githubusercontent.com/ra-artnft/raplay-releases/main/latest.json\n  (как у Android), fallback raplay.ru; битый/недоступный ист..."
     },
     "android": {
       "versionCode": 29,
@@ -18,11 +18,11 @@
       "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.16.2",
       "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.16.2/raplay-0.16.2.apk",
       "sha256": "7069c3cc7a976451928f67bd3a26fbcf0079fd8f80d38e6cf24518d8b1c144a2",
-      "notes": "### Changed\n- Код не менялся относительно 0.18.1 — релиз выпускается для сквозного\n  теста обновления по воздуху (0.18.1 → 0.18.2 через onedir-zip Path C).\n  Все ЧТИВО-фиксы этого дня — backend-сторона (см. [backend 0.4.0]) и\n  доезжают до desktop без обновления клиента."
+      "notes": "### Fixed\n- Баннер обновления никогда не появлялся в РФ: манифест читался с\n  raplay.ru, который блокируется (TLS-обрыв). Теперь цепочка: primary\n  raw.githubusercontent.com/ra-artnft/raplay-releases/main/latest.json\n  (как у Android), fallback raplay.ru; битый/недоступный ист..."
     },
     "miniapp": {
       "version": "0.6.0",
-      "notes": "### Changed\n- Код не менялся относительно 0.18.1 — релиз выпускается для сквозного\n  теста обновления по воздуху (0.18.1 → 0.18.2 через onedir-zip Path C).\n  Все ЧТИВО-фиксы этого дня — backend-сторона (см. [backend 0.4.0]) и\n  доезжают до desktop без обновления клиента.",
+      "notes": "### Fixed\n- Баннер обновления никогда не появлялся в РФ: манифест читался с\n  raplay.ru, который блокируется (TLS-обрыв). Теперь цепочка: primary\n  raw.githubusercontent.com/ra-artnft/raplay-releases/main/latest.json\n  (как у Android), fallback raplay.ru; битый/недоступный ист...",
       "sha256": null
     }
   }
