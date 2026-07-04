@@ -1,16 +1,16 @@
 {
-  "version": "0.18.5",
-  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.5",
-  "notes": "### Fixed\n- OTA не применялось / «Перезагрузить» не перезапускало: установка шла\n  через powershell.exe -File <скрипт из %TEMP%>, который на машине\n  пользователя не стартовал вовсе (Defender + кириллический профиль) —\n  helper-лог не создавался, install-папка не менялась. Пер...",
+  "version": "0.18.7",
+  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.7",
+  "notes": "### Fixed\n- Клики по статьям в ЧТИВО были мёртвыми: сигнал articleclicked\n  был объявлен, но ни одна карточка его не эмитила, шелл не подписывался,\n  а в Article не было backend-id. Теперь все карточки (HERO, Открытия,\n  Истории, Ретро) кликабельны → открывают нативный Article...",
   "platforms": {
     "desktop": {
-      "version": "0.18.5",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.5",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.18.5/RaPlay-0.18.5-windows-x64.zip",
-      "sha256": "a696e96c8c0e83a52e96042062585b867b922df42447523602376ce68791bbde",
-      "artifact_name": "RaPlay-0.18.5-windows-x64.zip",
+      "version": "0.18.7",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.18.7",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.18.7/RaPlay-0.18.7-windows-x64.zip",
+      "sha256": "a128129a1ee0e4667bb9903dd8029005acf4bed423431b5aedb8b73eeb063ec4",
+      "artifact_name": "RaPlay-0.18.7-windows-x64.zip",
       "artifact_kind": "zip-onedir",
-      "notes": "### Fixed\n- OTA не применялось / «Перезагрузить» не перезапускало: установка шла\n  через powershell.exe -File <скрипт из %TEMP%>, который на машине\n  пользователя не стартовал вовсе (Defender + кириллический профиль) —\n  helper-лог не создавался, install-папка не менялась. Пер..."
+      "notes": "### Fixed\n- Клики по статьям в ЧТИВО были мёртвыми: сигнал articleclicked\n  был объявлен, но ни одна карточка его не эмитила, шелл не подписывался,\n  а в Article не было backend-id. Теперь все карточки (HERO, Открытия,\n  Истории, Ретро) кликабельны → открывают нативный Article..."
     },
     "android": {
       "versionCode": 29,
@@ -18,11 +18,11 @@
       "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.16.2",
       "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.16.2/raplay-0.16.2.apk",
       "sha256": "7069c3cc7a976451928f67bd3a26fbcf0079fd8f80d38e6cf24518d8b1c144a2",
-      "notes": "### Fixed\n- OTA не применялось / «Перезагрузить» не перезапускало: установка шла\n  через powershell.exe -File <скрипт из %TEMP%>, который на машине\n  пользователя не стартовал вовсе (Defender + кириллический профиль) —\n  helper-лог не создавался, install-папка не менялась. Пер..."
+      "notes": "### Fixed\n- OTA-фиксы 0.18.5; полный список — CHANGELOG.md в репо raplay."
     },
     "miniapp": {
-      "version": "0.6.0",
-      "notes": "### Fixed\n- OTA не применялось / «Перезагрузить» не перезапускало: установка шла\n  через powershell.exe -File <скрипт из %TEMP%>, который на машине\n  пользователя не стартовал вовсе (Defender + кириллический профиль) —\n  helper-лог не создавался, install-папка не менялась. Пер...",
+      "version": "0.7.0",
+      "notes": "### Fixed\n- Клики по статьям в ЧТИВО были мёртвыми: сигнал articleclicked\n  был объявлен, но ни одна карточка его не эмитила, шелл не подписывался,\n  а в Article не было backend-id. Теперь все карточки (HERO, Открытия,\n  Истории, Ретро) кликабельны → открывают нативный Article...",
       "sha256": null
     }
   }
