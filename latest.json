@@ -13,12 +13,12 @@
       "notes": "### Fixed\n- Клики по статьям в ЧТИВО были мёртвыми: сигнал articleclicked\n  был объявлен, но ни одна карточка его не эмитила, шелл не подписывался,\n  а в Article не было backend-id. Теперь все карточки (HERO, Открытия,\n  Истории, Ретро) кликабельны → открывают нативный Article..."
     },
     "android": {
-      "versionCode": 29,
-      "versionName": "0.16.2",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.16.2",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.16.2/raplay-0.16.2.apk",
-      "sha256": "7069c3cc7a976451928f67bd3a26fbcf0079fd8f80d38e6cf24518d8b1c144a2",
-      "notes": "### Fixed\n- OTA-фиксы 0.18.5; полный список — CHANGELOG.md в репо raplay."
+      "versionCode": 30,
+      "versionName": "0.17.0",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.17.0",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.17.0/raplay-0.17.0.apk",
+      "sha256": "2c884b23afeacb158bb3008d86ed3521204c94fd9b3f0930589d952ba669337c",
+      "notes": "### Fixed\n- Клики по статьям в ЧТИВО были мёртвыми: сигнал articleclicked\n  был объявлен, но ни одна карточка его не эмитила, шелл не подписывался,\n  а в Article не было backend-id. Теперь все карточки (HERO, Открытия,\n  Истории, Ретро) кликабельны → открывают нативный Article..."
     },
     "miniapp": {
       "version": "0.7.0",
