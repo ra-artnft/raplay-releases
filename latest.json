@@ -1,28 +1,28 @@
 {
-  "version": "0.19.0",
-  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.19.0",
-  "notes": "### Changed\n- ЧТИВО = бесконечная unified-лента. Вместо фиксированного «журнального\n  выпуска» (HERO + Открытия + Истории + Ретро + мок-афиша, ~13 карточек)\n  вкладка теперь рисует сплошную ленту из GET /api/content/unified?source=all\n  (keyset-пагинация): HERO — первая единиц...",
+  "version": "0.19.1",
+  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.19.1",
+  "notes": "### Fixed\n- Критический hotfix запуска. Сборка 0.19.0 падала на старте с\n  AccountClient.init() got an unexpected keyword argument 'refreshcb':\n  артефакт собрали из рассогласованного дерева (две параллельные сессии) —\n  editorialshell.py вызывал AccountClient(refreshcb=…), а\n...",
   "platforms": {
     "desktop": {
-      "version": "0.19.0",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.19.0",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.19.0/RaPlay-0.19.0-windows-x64.zip",
-      "sha256": "497feb8ee92cb0309e2d1a04cb91271266b1263eec3e15c16ed3145cd5b3db70",
-      "artifact_name": "RaPlay-0.19.0-windows-x64.zip",
+      "version": "0.19.1",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.19.1",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.19.1/RaPlay-0.19.1-windows-x64.zip",
+      "sha256": "ec2db360cb090ab4fa7a85b94c8cc57cfe2ad74cfe35dcd1e1ab837ddf93662e",
+      "artifact_name": "RaPlay-0.19.1-windows-x64.zip",
       "artifact_kind": "zip-onedir",
-      "notes": "### Changed\n- ЧТИВО = бесконечная unified-лента. Вместо фиксированного «журнального\n  выпуска» (HERO + Открытия + Истории + Ретро + мок-афиша, ~13 карточек)\n  вкладка теперь рисует сплошную ленту из GET /api/content/unified?source=all\n  (keyset-пагинация): HERO — первая единиц..."
+      "notes": "### Fixed\n- Критический hotfix запуска. Сборка 0.19.0 падала на старте с\n  AccountClient.init() got an unexpected keyword argument 'refreshcb':\n  артефакт собрали из рассогласованного дерева (две параллельные сессии) —\n  editorialshell.py вызывал AccountClient(refreshcb=…), а\n..."
     },
     "android": {
-      "versionCode": 31,
-      "versionName": "0.18.0",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.18.0",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.18.0/raplay-0.18.0.apk",
-      "sha256": "0d437971914b40b1e213db500acfd237fb20146335e9f8fa3bacf62385a05b4d",
-      "notes": "### Changed\n- ЧТИВО = бесконечная unified-лента. Вместо фиксированного «журнального\n  выпуска» (HERO + Открытия + Истории + Ретро + мок-афиша, ~13 карточек)\n  вкладка теперь рисует сплошную ленту из GET /api/content/unified?source=all\n  (keyset-пагинация): HERO — первая единиц..."
+      "versionCode": 32,
+      "versionName": "0.19.0",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.19.0",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.19.0/raplay-0.19.0.apk",
+      "sha256": "756175144cc54d2ee76c863cd8c86ca6e53f3a2a6a4e6684101bffc7d90cf4ed",
+      "notes": "### Fixed\n- Критический hotfix запуска. Сборка 0.19.0 падала на старте с\n  AccountClient.init() got an unexpected keyword argument 'refreshcb':\n  артефакт собрали из рассогласованного дерева (две параллельные сессии) —\n  editorialshell.py вызывал AccountClient(refreshcb=…), а\n..."
     },
     "miniapp": {
       "version": "0.8.0",
-      "notes": "### Changed\n- ЧТИВО = бесконечная unified-лента. Вместо фиксированного «журнального\n  выпуска» (HERO + Открытия + Истории + Ретро + мок-афиша, ~13 карточек)\n  вкладка теперь рисует сплошную ленту из GET /api/content/unified?source=all\n  (keyset-пагинация): HERO — первая единиц...",
+      "notes": "### Fixed\n- Критический hotfix запуска. Сборка 0.19.0 падала на старте с\n  AccountClient.init() got an unexpected keyword argument 'refreshcb':\n  артефакт собрали из рассогласованного дерева (две параллельные сессии) —\n  editorialshell.py вызывал AccountClient(refreshcb=…), а\n...",
       "sha256": null
     }
   }
