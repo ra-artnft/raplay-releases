@@ -1,28 +1,28 @@
 {
-  "version": "0.19.1",
-  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.19.1",
-  "notes": "### Fixed\n- Критический hotfix запуска. Сборка 0.19.0 падала на старте с\n  AccountClient.init() got an unexpected keyword argument 'refreshcb':\n  артефакт собрали из рассогласованного дерева (две параллельные сессии) —\n  editorialshell.py вызывал AccountClient(refreshcb=…), а\n...",
+  "version": "0.19.5",
+  "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.19.5",
+  "notes": "### Added\n- ЛЕНТА ПОДПИСОК. Кнопка в МОЙ КАНАЛ открывает хронологическую ленту постов\n  авторов, на которых ты подписан (GET /api/account/me/following-feed). Плитки\n  — те же ResonanceTile, что в РЕЗОНАНС; тап по автору → его профиль. Так контент\n  от аккаунтов, на которые под...",
   "platforms": {
     "desktop": {
-      "version": "0.19.1",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.19.1",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.19.1/RaPlay-0.19.1-windows-x64.zip",
-      "sha256": "ec2db360cb090ab4fa7a85b94c8cc57cfe2ad74cfe35dcd1e1ab837ddf93662e",
-      "artifact_name": "RaPlay-0.19.1-windows-x64.zip",
+      "version": "0.19.5",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/v0.19.5",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/v0.19.5/RaPlay-0.19.5-windows-x64.zip",
+      "sha256": "9121d6ee004b00b9cada2f60de78e61133990770d6b1cd1d1d48a3caf382d505",
+      "artifact_name": "RaPlay-0.19.5-windows-x64.zip",
       "artifact_kind": "zip-onedir",
-      "notes": "### Fixed\n- Критический hotfix запуска. Сборка 0.19.0 падала на старте с\n  AccountClient.init() got an unexpected keyword argument 'refreshcb':\n  артефакт собрали из рассогласованного дерева (две параллельные сессии) —\n  editorialshell.py вызывал AccountClient(refreshcb=…), а\n..."
+      "notes": "### Added\n- ЛЕНТА ПОДПИСОК. Кнопка в МОЙ КАНАЛ открывает хронологическую ленту постов\n  авторов, на которых ты подписан (GET /api/account/me/following-feed). Плитки\n  — те же ResonanceTile, что в РЕЗОНАНС; тап по автору → его профиль. Так контент\n  от аккаунтов, на которые под..."
     },
     "android": {
-      "versionCode": 32,
-      "versionName": "0.19.0",
-      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.19.0",
-      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.19.0/raplay-0.19.0.apk",
-      "sha256": "756175144cc54d2ee76c863cd8c86ca6e53f3a2a6a4e6684101bffc7d90cf4ed",
-      "notes": "### Fixed\n- Критический hotfix запуска. Сборка 0.19.0 падала на старте с\n  AccountClient.init() got an unexpected keyword argument 'refreshcb':\n  артефакт собрали из рассогласованного дерева (две параллельные сессии) —\n  editorialshell.py вызывал AccountClient(refreshcb=…), а\n..."
+      "versionCode": 33,
+      "versionName": "0.19.1",
+      "release_url": "https://github.com/ra-artnft/raplay-releases/releases/tag/android-v0.19.1",
+      "url": "https://github.com/ra-artnft/raplay-releases/releases/download/android-v0.19.1/raplay-0.19.1.apk",
+      "sha256": "8a283ebf1b2b463c47c5f3807a18e5879a75cae60864470e87bb793b6aa43e9e",
+      "notes": "### Added\n- ЛЕНТА ПОДПИСОК. Кнопка в МОЙ КАНАЛ открывает хронологическую ленту постов\n  авторов, на которых ты подписан (GET /api/account/me/following-feed). Плитки\n  — те же ResonanceTile, что в РЕЗОНАНС; тап по автору → его профиль. Так контент\n  от аккаунтов, на которые под..."
     },
     "miniapp": {
-      "version": "0.8.0",
-      "notes": "### Fixed\n- Критический hotfix запуска. Сборка 0.19.0 падала на старте с\n  AccountClient.init() got an unexpected keyword argument 'refreshcb':\n  артефакт собрали из рассогласованного дерева (две параллельные сессии) —\n  editorialshell.py вызывал AccountClient(refreshcb=…), а\n...",
+      "version": "0.9.0",
+      "notes": "### Added\n- ЛЕНТА ПОДПИСОК. Кнопка в МОЙ КАНАЛ открывает хронологическую ленту постов\n  авторов, на которых ты подписан (GET /api/account/me/following-feed). Плитки\n  — те же ResonanceTile, что в РЕЗОНАНС; тап по автору → его профиль. Так контент\n  от аккаунтов, на которые под...",
       "sha256": null
     }
   }
